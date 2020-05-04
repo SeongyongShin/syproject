@@ -1,0 +1,24 @@
+body {
+    padding-top: 2.5cm;
+    padding-left: 5cm;
+}
+
+body .btn-group {
+    padding-left: 0.4cm;
+
+
+}
+
+body .card-body {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 0.6cm;
+}
+
+.card-text2 {
+    padding-left: 4cm;
+    text-align: left;
+    font-size: 0.4cm;
+}
