@@ -1,0 +1,60 @@
+@font-face { font-family: 'MapoDPPA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+.navbar button:hover{
+    background-color: rgb(247, 153, 137);
+    color: white;
+}
+.search-button{
+    padding-left: 20em;
+}
+.main{
+    padding: 2em;
+    margin-top: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(245, 245, 220);
+    height: 75em;
+    margin-bottom: 3em;
+   
+}
+.main-item{
+    background-color: white;
+    border-radius: 2em;
+    padding: 4em;
+    font-family: 'MapoDPPA';
+    margin-bottom: 2em;
+}
+.main-item h2{
+    margin-left: 1em;
+}
+
+
+.thumbnail{
+    display: flex;
+    margin-left: 3em;
+    
+    
+}
+
+.card:hover{
+    border: rgb(255, 99, 71, 10);
+    border-style: solid;
+
+}
+
+a:link { color: red; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: black; text-decoration:none;}
+
+.foot{
+     background-color: white;
+     height: 3em;
+     clear: both;
+     margin-top: 0em;
+ }
+.foot p{
+    margin-left: 1.3em;
+    color: gray;
+}
+
