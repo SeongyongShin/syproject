@@ -1,19 +1,28 @@
 @font-face { font-family: 'MapoDPPA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 
+body{
+
+    background-color: whitesmoke;
+}
+
 .main{
     padding: 3em;
     padding-top: 1em;
     font-family: 'MapoDPPA';
+    
 }
 
 .main-item{
     padding: 3em;
-    background-color: rgb(245, 245, 220,200);
-    border-radius: 2em;
-    width: 60em;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(255,143,75);
+    width: 50em;
     float: left;
     margin-bottom: 2em;
+    margin-left: 8em;
+
 }
 .main-item img{
     border-radius: 2em;
@@ -41,11 +50,15 @@
     clear: both;
     width: 90em;
     height: 10em;
-    background-color: wheat;
+    background-color: white;
     padding-top: 3em;
 }
 
 .foot p{
     margin-left: 1.3em;
     color: gray;
+}
+
+.recipe-font{
+    width: 50em;
 }
