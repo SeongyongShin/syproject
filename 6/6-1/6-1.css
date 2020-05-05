@@ -1,6 +1,7 @@
 body {
     padding-top: 2.5cm;
     padding-left: 5cm;
+    border: 0.5cm solid wheat;
 }
 
 body .btn-group {
@@ -18,7 +19,21 @@ body .card-body {
 }
 
 .card-text2 {
-    padding-left: 4cm;
+    padding-left: 3cm;
     text-align: left;
     font-size: 0.4cm;
+}
+
+.card {
+    border: 0.05cm solid burlywood;
+}
+
+.btn {
+    background-color: burlywood;
+    border: wheat;
+    color: white;
+}
+
+.card {
+    background-color: wheat;
 }
