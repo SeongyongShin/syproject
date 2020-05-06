@@ -83,3 +83,28 @@ a:link { color: red; text-decoration: none;}
 .minus-margin{
     margin-top: -4em;
 }
+
+.social-part .fa{
+    padding-right:20px;
+  }
+  ul li a{
+    margin-right: 20px;
+  }
+  .h1, h1 {
+    font-size: 2.5rem;
+    
+  }
+  .navbar {
+    position: relative;
+    display: inline;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .5rem 1rem;
+  } 
+  .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    }
