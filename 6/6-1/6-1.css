@@ -1,13 +1,19 @@
 body {
     padding-top: 2.5cm;
-    padding-left: 5cm;
-    border: 0.5cm solid wheat;
+    padding-bottom: 2.5cm;
+    background-color: rgb(236, 236, 236);
+
 }
 
-body .btn-group {
-    padding-left: 0.4cm;
+.container {
+    border: 0.1cm solid #ff8f4b;
+    background-color: white;
+    padding-bottom: 3cm;
+    
+}
 
-
+.row {
+    margin-left: 3cm;
 }
 
 body .card-body {
@@ -19,21 +25,32 @@ body .card-body {
 }
 
 .card-text2 {
-    padding-left: 3cm;
+    margin-left: 3cm;
     text-align: left;
     font-size: 0.4cm;
 }
 
 .card {
-    border: 0.05cm solid burlywood;
+    border: 0.05cm solid #ff8f4b;
 }
 
 .btn {
-    background-color: burlywood;
-    border: wheat;
+    background-color: #ff8f4b;
+    border: #ff8f4b;
     color: white;
 }
 
-.card {
-    background-color: wheat;
-}
+.navbar {
+    position: relative;
+    display: inline;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .5rem 1rem;
+  } 
+  .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    }

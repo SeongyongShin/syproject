@@ -14,40 +14,96 @@
       }
     </script>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    
+    <style type="text/css">
+    
+    .swiper-container {
+      height:400px;
+      width: 900px;
+    }
+    .swiper-slide {
+      text-align:center;
+      display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+      align-items:center; /* 위아래 기준 중앙정렬 */
+      justify-content:center; /* 좌우 기준 중앙정렬 */
+    }
+    .swiper-slide img {
+      max-width:80%;
+    }
+    
+    </style>
 </head>
 
 <body>
-  <section>
+  <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-light bg-light ">
+    <div id="header" class="header">
+      <div class="inner">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="row d-flex justify-content-between">
+          <div class="ml-5"><h1 ><a href="navbar.html">재료조합소</a></h1></div>
+          <div class="mr-5">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <div class="d-flex justify-content-end ">
+          <div class="menu">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" href="#">메인<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">목적</a>
+              </li>
 
-  
+              <li class="nav-item">
+                <a class="nav-link" href="#">레시피</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="6.html">농산물 홍보</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">커뮤니티</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">로그인</a>
+              </li>
+            </ul>
+          </div> 
+          </div>
+          </div>
+        </div>
+        </div>
+       </div> 
+     </div> 
+    </nav>
+  <section>
     <div class="container">
-        <p style="font-size: 0.7cm;">오늘 특가 상품</p>
-        <div class="row">
-            <div class="col-6">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/이천쌀.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h6 class="card-title">이천쌀 10kg</h6>
-                        <p class="card-text">34,900원</p>
-                      <a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=126455595" target="_blank" class="btn btn-warning">자세히보기</a>
-                    </div>
-                  </div>
+        <p style="font-size: 0.7cm; margin-top: 0.7cm; margin-left: 4cm;">오늘 특가 상품</p>
+        <div class="row" style="margin-left: 0px;">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=106537834" target="_blank"><img src="img/고기1.png" width="240px" height="280px"></a></div>
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=106537447" target="_blank"><img src="img/고기2.png" width="240px" height="280px"></a></div>
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=106539047" target="_blank"><img src="img/고기3.png" width="240px" height="280px"></a></div>
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=115034315" target="_blank"><img src="img/키위.png" width="240px" height="280px"></a></div>
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=122122471" target="_blank"><img src="img/수박.png" width="240px" height="280px"></a></div>
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=119827751" target="_blank"><img src="img/오렌지.png" width="240px" height="280px"></a></div>
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=000058637" target="_blank"><img src="img/기타1.png" width="240px" height="280px"></a></div>
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=134562000" target="_blank"><img src="img/기타2.png" width="240px" height="280px"></a></div>
+              <div class="swiper-slide"><a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=123343311" target="_blank"><img src="img/기타3.png" width="240px" height="280px"></a></div>
             </div>
-            <div class="col-6" style="padding-left: 1cm;">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/나주배.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h6 class="card-title">국내산 나주배 5kg</h6>
-                        <p class="card-text">17,700원</p>
-                      <a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=133782789" target="_blank" class="btn btn-warning">자세히보기</a>
-                    </div>
-                </div>
-            </div>
+          
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          
+            <div class="swiper-pagination"></div>
+          </div>
+          
         </div>
 
         <div class="row">
-            <div class="btn-group btn-group-lg" role="group" aria-label="Basic example" style="padding-top: 2cm;">
+            <div class="btn-group btn-group-lg" role="group" aria-label="Basic example" style="padding-top: 1cm;">
                 <button type="button" class="btn btn-secondary" onclick="btngroup()" style="width: 4.63cm; height: 1.5cm;">과일</button>
                 <button type="button" class="btn btn-secondary" onclick="btngroup()" style="width: 4.63cm; height: 1.5cm;">쌀/잡곡</button>
                 <button type="button" class="btn btn-secondary" onclick="btngroup()" style="width: 4.63cm; height: 1.5cm;">채소</button>
@@ -66,14 +122,14 @@
         </div>
 
         <div class="row">
-            <p style="padding-top: 2cm; padding-left: 0.4cm; font-size: 0.7cm;">Today best</p>
+            <p style="padding-top: 2cm; font-size: 0.7cm;">Today best</p>
         </div>
 
-        <div class="row" style="padding-left: 0.4cm;">
+        <div class="row" >
             <div class="card" style="width: 18rem;">
                 <img src="img/삼겹살.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">삼겹살 400g</h6>
+                  <h5 class="card-title">삼겹살 400g</h5>
                   <p class="card-text">13,990원</p>
                   <a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=128969438" target="_blank" class="btn btn-warning">자세히보기</a>
                 </div>
@@ -81,7 +137,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="img/감자.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">햇감자 500g</h6>
+                  <h5 class="card-title">햇감자 500g</h5>
                   <p class="card-text">4,990원</p>
                   <a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=127973751&cid=60051" target="_blank" class="btn btn-warning">자세히보기</a>
                 </div>
@@ -89,17 +145,17 @@
             <div class="card" style="width: 18rem;">
                 <img src="img/갈치.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">제주 갈치 2마리</h6>
+                  <h5 class="card-title">제주 갈치 2마리</h5>
                   <p class="card-text">16,900원</p>
                   <a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=155341331&cid=60162" target="_blank" class="btn btn-warning">자세히보기</a>
                 </div>
             </div>
         </div>
-        <div class="row" style="padding-left: 0.4cm; padding-bottom: 2.5cm;">
+        <div class="row" style="margin-bottom: 2.5cm;">
             <div class="card" style="width: 18rem;">
                 <img src="img/연어.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">생언어 100g</h6>
+                  <h5 class="card-title">생언어 100g</h5>
                    <p class="card-text">3,390원</p>
                   <a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=127007646" target="_blank" class="btn btn-warning">자세히보기</a>
                 </div>
@@ -107,7 +163,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="img/계란.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">유정란 30알</h6>
+                  <h5 class="card-title">유정란 30알</h5>
                   <p class="card-text">13,000원</p>
                   <a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=134067258&cid=60151" target="_blank" class="btn btn-warning">자세히보기</a>
                 </div>
@@ -115,7 +171,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="img/호박고구마.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">호박고구마 1.5kg</h6>
+                  <h5 class="card-title">호박고구마 1.5kg</h5>
                   <p class="card-text">11,900원</p>
                   <a href="http://www.homeplus.co.kr/app.product.GoodDetail.ghs?comm=usr.detail&good_id=110651576&cid=60051" target="_blank" class="btn btn-warning">자세히보기</a>
                 </div>
@@ -126,5 +182,30 @@
     
     
   </section>
+
+  <script>
+
+    new Swiper('.swiper-container', {
+    
+      slidesPerView : 3,
+      spaceBetween : 30,
+      slidesPerGroup : 3,
+    
+
+      loopFillGroupWithBlank : true,
+    
+      loop : true, 
+    
+      pagination : {
+        el : '.swiper-pagination',
+        clickable : true,
+      },
+      navigation : {
+        nextEl : '.swiper-button-next',
+        prevEl : '.swiper-button-prev',
+      },
+    });
+    
+    </script>
 </body>
 </html>
