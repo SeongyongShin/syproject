@@ -1,0 +1,37 @@
+.nav{
+    
+    width: 90em;
+    height: 10em;
+}
+
+.main{
+    background-color: whitesmoke;
+    width: 90em;
+    height: 100em;
+}
+
+.main-item{
+    background-color: white;
+    float: left;
+    width: 55em;
+    height: 80em;
+    margin-left: 8em;
+    margin-top: 5em;
+
+}
+
+.main-customer{
+    background-color:white;
+    float: right;
+    width: 20em;
+    height: 80em;
+    margin-right: 6em;
+    margin-top: 5em;
+}
+
+.menu-margin{
+    margin-top: 5em;
+    margin-left: 3em;
+}
+
+
