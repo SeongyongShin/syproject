@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link rel=“stylesheet” type=“text/css” href="boardcss/board.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+  <style>
+  .navbar {
+    position: relative;
+    display: inline;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .5rem 1rem;
+  } 
+  .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!--navbar  -->
+  <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-light bg-light ">
+    <div id="header" class="header">
+      <div class="inner">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="row d-flex justify-content-between">
+          <div class="ml-5"><h1 ><a href="navbar.html">재료조합소</a></h1></div>
+          <div class="mr-5">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <div class="d-flex justify-content-end ">
+          <div class="menu">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" href="#">메인<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">목적</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">레시피</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">농산물 홍보</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">커뮤니티</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">로그인</a>
+              </li>
+            <!-- <li class="nav-item dropdown dmenu">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu sm-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+                <a class="dropdown-item" href="#">Link 4</a>
+                <a class="dropdown-item" href="#">Link 5</a>
+                <a class="dropdown-item" href="#">Link 6</a>
+              </div>
+            </li> -->
+            </ul>
+          </div> 
+          </div>
+          </div>
+        </div>
+        </div>
+       </div> 
+     </div> 
+    </nav>
+    <!-- 소개글 -->
+    <div class="container mt-5">
+     <h3>커뮤니티</h3>
+     <h5>어떤 레시피와 함께하고 있나요?</h5>
+    </div>
+
+    <div class="container">
+      <div class="col-2 mt-2" style="opacity: 0.0;">1</div>
+    </div> 
+    <div class="container">
+      <div class="col-2 mt-2" style="opacity: 0.0;">1</div>
+    </div>
+    <!-- card -->
+  <div class="container">
+    <div class="listbox .list-box-size">
+      <div class="card-columns">
+        <div class="card"  style="border-color: #FF8F4B;">
+          <img src="/img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">@yumyumyumy</h5>
+            <p class="card-text">안녕하세요.시니마리아예요.
+              이곳 멕시코 와서 아이가 생겨 첫 입덧으로
+              캠벨포도와 아귀찜만 생각났던 시절...
+              </p>
+          </div>
+        </div>
+        
+        <div class="card p-3" style="border-color: #FF8F4B;">
+          <blockquote class="blockquote mb-0 card-body">
+            <h5 class="card-title">@momomomy</h5>
+            <p>아귀 요리법 공유합니다
+              </p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+
+        <div class="card p-3" style="border-color: #FF8F4B;>
+          <blockquote class="blockquote mb-0 card-body>
+            <h5 class="card-title">@momomomy</h5>
+            <p>아귀 요리법 공유합니다
+              </p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+
+        
+
+        <div class="card" style="border-color: #FF8F4B;" >
+          <img src="/img/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">@jrty</h5>
+            <p class="card-text">🌴 바람이 좀 마니불지만 기온은 딱좋은 날씨네용~^^🥰
+
+              오늘은 청양이 마니넣코 칼칼한 김치볶음했구용..🤗 새송이전과 어묵전은 냉털하느라 했어용! 😋 장아찌가 먹고싶어서 오이참외장아찌 무치구용~^^🥰 션한 토마토와 오미자에이드로 마무리 해봅니당~^^😂🙄
+              
+              🌵 하루종일 행복한일만 생기시길용.. 🌵</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card  text-white text-center p-3" style="background-color: #FF8F4B;border-color: #FF8F4B; ">
+          <blockquote class="blockquote mb-0">
+            <p>재료조합소 커뮤니티는 <br>언제나 당신을 환영합니다</p>
+            <footer class="blockquote-footer text-white">
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card p-3 left" style="border-color: #FF8F4B;">
+          <div class= "card-body">
+            <h5 class="p-3 left">@jrty</h5>
+            <p class="card-text">오늘은 육전 동영상 올려요..
+
+              맛나게드세요..
+              
+              https://youtu.be/KRE1VUMfaLs
+              </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        
+        
+
+
+        <div class="card"  style="border-color: #FF8F4B;">
+          <div class="card-body">
+            <h5 class="card-title">@iui</h5>
+            <p class="card-text">쫀득한 묵말랭이랑 식감 끝판왕 은이버섯이 어우러져 참 맛나더라구요~
+              요즘 오이가 저렴해서 자주 식탁에 올리게 되네요~
+              오늘은 오이 볶음으로~
+              센불에 휘리릭 볶아 내면 아작아작하니 요것두 별미예요~
+              저녁 먹고나니 암것두 하기 싫으네요~~^^</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card p-3"  style="border-color: #FF8F4B;">
+          <blockquote class="blockquote mb-0 card-body">
+            <h5 class="card-title">@momomomy</h5>
+            <p>아귀 요리법 공유합니다
+              </p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- secondcopy -->
+    <div class="listbox .list-box-size">
+      <div class="card-columns">
+        <div class="card" style="border-color: #FF8F4B;"  >
+          <img src="/img/7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">@yumyumyumy</h5>
+            <p class="card-text">안녕하세요.시니마리아예요.
+              이곳 멕시코 와서 아이가 생겨 첫 입덧으로
+              캠벨포도와 아귀찜만 생각났던 시절...
+              </p>
+          </div>
+        </div>
+        
+        <div class="card p-3" style="border-color: #FF8F4B;">
+          <blockquote class="blockquote mb-0 card-body">
+            <h5 class="card-title">@momomomy</h5>
+            <p>아귀 요리법 공유합니다
+              </p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card" style="border-color: #FF8F4B;">
+          <img src="/img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">@jrty</h5>
+            <p class="card-text">#홈레시피 #오늘은이거했어요 #일품요리 #술안주 #가족식사 #아귀찜 #김수미아귀찜
+              #꿀은참아주세요 #양념장 #육수 #볶음밥
+              #아이들도엄지척 #최고JU</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card p-3 p-3 left" style="border-color: #FF8F4B;">
+          <blockquote class="blockquote mb-0">
+            <h5 class="card-title">@iui</h5>
+            <p>며칠전부터 하려고 맘먹었던
+              묵말랭이볶음을 드뎌 했답니다~
+              묵 몇번 쒀먹고 말려 두었던 도토리묵을 불리고
+              은이버섯이랑 채소 넣고 볶았어요~</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card" style="border-color: #FF8F4B;">
+          <img src="/img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">@jrty</h5>
+            <p class="card-text">#홈레시피 #오늘은이거했어요 #일품요리 #술안주 #가족식사 #아귀찜 #김수미아귀찜
+              #꿀은참아주세요 #양념장 #육수 #볶음밥
+              #아이들도엄지척 #최고JU</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card p-3 p-3 left" style="border-color: #FF8F4B;">
+          <blockquote class="blockquote mb-0">
+            <h5 class="card-title">@iui</h5>
+            <p>며칠전부터 하려고 맘먹었던
+              묵말랭이볶음을 드뎌 했답니다~
+              묵 몇번 쒀먹고 말려 두었던 도토리묵을 불리고
+              은이버섯이랑 채소 넣고 볶았어요~</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card p-3 p-3 left"style="border-color: #FF8F4B;" >
+          <blockquote class="blockquote mb-0">
+            <h5 class="card-title">@iui</h5>
+            <p>며칠전부터 하려고 맘먹었던
+              묵말랭이볶음을 드뎌 했답니다~
+            </p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+
+        <div class="card p-3 left" style="border-color: #FF8F4B;">
+          <div class="card-body">
+            <h5 class="card-title">@jrty</h5>
+            <p class="card-text">오늘은 육전 동영상 올려요..
+
+              맛나게드세요..
+              
+              https://youtu.be/KRE1VUMfaLs
+              </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card p-3 p-3 left" style="border-color: #FF8F4B;">
+          <blockquote class="blockquote mb-0">
+            <h5 class="card-title">@iui</h5>
+            <p>며칠전부터 하려고 맘먹었던
+              묵말랭이볶음을 드뎌 했답니다~bbbb오늘정말 즐겁다
+              </p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card" style="border-color: #FF8F4B;">
+          <img src="/img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">@jrty</h5>
+            <p class="card-text">#홈레시피 #오늘은이거했어요 #일품요리 #술안주 #가족식사 #아귀찜 #김수미아귀찜
+              #꿀은참아주세요 #양념장 #육수 #볶음밥
+              #아이들도엄지척 #최고JU</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/10.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card p-3 p-3 left" style="border-color: #FF8F4B;">
+          <blockquote class="blockquote mb-0">
+            <h5 class="card-title">@iui</h5>
+            <p>며칠전부터 하려고 맘먹었던
+              묵말랭이볶음을 드뎌 했답니다~
+              묵 몇번 쒀먹고 말려 두었던 도토리묵을 불리고
+              은이버섯이랑 채소 넣고 볶았어요~</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card" style="border-color: #FF8F4B;">
+          <div class="card-body">
+            <h5 class="card-title">@iui</h5>
+            <p class="card-text">쫀득한 묵말랭이랑 식감 끝판왕 은이버섯이 어우러져 참 맛나더라구요~
+              요즘 오이가 저렴해서 자주 식탁에 올리게 되네요~
+              오늘은 오이 볶음으로~
+              센불에 휘리릭 볶아 내면 아작아작하니 요것두 별미예요~
+              저녁 먹고나니 암것두 하기 싫으네요~~^^</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</body>
+
+</html>
