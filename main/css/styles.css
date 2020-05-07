@@ -10456,6 +10456,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-top: 19rem;
+  margin-bottom: 19rem;
 }
 
 .social-part .fa{
@@ -10479,8 +10481,20 @@ ul li a{
   text-align: center;
 }
 .photo1 {
-  font-size: 8rem;
+  font-size: 4rem;
+  color: orange;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
 }
 .photo2 {
   font-size: 4rem;
+  color: orange;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
 }
