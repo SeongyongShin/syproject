@@ -16,18 +16,70 @@
     <title>4page</title>
 </head>
 <body>
-    <nav class="header">
-<!--네비게이션 바 부분-->
-    </nav>
+  <!--네비게이션 바-->
+  <div class="navigation bar">
+  <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-light bg-light ">
+    <div id="header" class="header">
+      <div class="inner">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="row d-flex justify-content-between">
+          <div class="ml-5"><h1 ><a href="navbar.html" style="color:#007BFF;">재료조합소</a></h1></div>
+          <div class="mr-5">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <div class="d-flex justify-content-end ">
+          <div class="menu">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" href="#">메인<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">목적</a>
+              </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="#">레시피</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">농산물 홍보</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">커뮤니티</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">로그인</a>
+              </li>
+            <!-- <li class="nav-item dropdown dmenu">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu sm-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+                <a class="dropdown-item" href="#">Link 4</a>
+                <a class="dropdown-item" href="#">Link 5</a>
+                <a class="dropdown-item" href="#">Link 6</a>
+              </div>
+            </li> -->
+            </ul>
+          </div> 
+          </div>
+          </div>
+        </div>
+        </div>
+       </div> 
+     </div> 
+    </div>
 
 <!--검색바 부분-->
 <div class="top">
     
     <nav class="navbar navbar-light bg-white">
-        <form class="form-inline" style="padding-left: 35em;padding-top: 3em;">
+        <form class="form-inline" style="padding-left: 35em;padding-top: 3em;margin-top: 3em; margin-bottom: -2em;">
           <input class="form-control mr-sm-2" type="search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: rgb(233, 74, 74); border-color: rgb(233, 74, 74);">Search</button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: rgb(233, 74, 74); border-color: rgb(233, 74, 74); margin-top: 3em;">Search</button>
         </form>
     </nav>
     
@@ -40,18 +92,63 @@
     <!--조리방법별 요리분류 탭-->
     <nav aria-label="breadcrumb">
 
-      <ol class="breadcrumb" style="background-color: white;">        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning">전체</button></li>
+      <ol class="breadcrumb minus-margin" style="background-color: white;">
+        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning border-round">종류별</button></li>        
+        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning">전체</button></li>
+        <li class="breadcrumb"style="background-color: white;"><button type="button" class="btn btn-outline-dark">밑반찬</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin" >메인반찬</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">국/탕</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">찌개</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">디저트</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">면</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">밥/죽/떡</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">김치</button></li>        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">밀가루</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">빵</button></li>
+      </ol>
+
+      <ol class="breadcrumb minus-margin" style="background-color: white;">
+        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning border-round">상황별</button></li>        
+        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning">전체</button></li>
+        <li class="breadcrumb"style="background-color: white;"><button type="button" class="btn btn-outline-dark">일상</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin" >초스피드</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">손님접대</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">술안주</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">다이어트</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">도시락</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">영양식</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">간식</button></li>        
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">야식</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">해장</button></li>
+      </ol>
+
+      <ol class="breadcrumb minus-margin" style="background-color: white;">
+        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning border-round">재료별</button></li>        
+        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning">전체</button></li>
+        <li class="breadcrumb"style="background-color: white;"><button type="button" class="btn btn-outline-dark">소고기</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin" >돼지고기</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">닭고기</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">육류</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">채소류</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">해물류</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">달걀/유제품</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">가공식품류</button></li>        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">밀가루</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">건어물</button></li>
+      </ol>
+
+      <ol class="breadcrumb minus-margin" style="background-color: white;">
+        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning border-round">방법별</button></li>        
+        <li class="breadcrumb" style="background-color: white;" aria-current="page"><button type="button" class="btn btn-outline-warning">전체</button></li>
         <li class="breadcrumb"style="background-color: white;"><button type="button" class="btn btn-outline-dark">볶음</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark" >끓이기</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">부침</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">조림</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">비빔</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">찜</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">튀김</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">삶기</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">굽기</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">데치기</button></li>
-        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark">기타</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin" >끓이기</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">부침</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">조림</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">비빔</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">찜</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">튀김</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">삶기</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">굽기</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">데치기</button></li>
+        <li class="breadcrumb" style="background-color: white;"aria-current="page"><button type="button" class="btn btn-outline-dark button-margin">기타</button></li>
       
       </ol>
     </nav>
@@ -70,27 +167,27 @@
 
     <div class="thumbnail row">
         <!--돼지고기수육-->
-        <div class="card" style="width: 18em; margin-left: 2em; margin-right: 5em;">
+        <div class="card" style="width: 16em; margin-left: 0em; margin-right: 1em;">
           <a href="4-1.html">
           <img src="https://craftlog.com/m/i/6053542=s1280=h960" class="card-img-top" alt="..." width="30em" height="220em">
           <div class="card-body">
-            <p class="card-text" style="text-align: center; margin-top: 0.4em;">돼지고기 수육</p>
+            <p class="card-text" style="text-align: center; margin-top: 0.4em; color: black;">돼지고기 수육</p>
           </div>
         </a>
         </div>
 
         <!--돼지고기 두루치기-->
-        <div class="card" style="width: 18em; margin-left: 2em; margin-right: 5em;">
+        <div class="card" style="width: 16em;">
           <a href="4-1.html">
           <img src="https://t1.daumcdn.net/cfile/tistory/99B553395AAA27702B" class="card-img-top"alt="..." width="30em" height="220em">
           <div class="card-body">
-            <p class="card-text" style="text-align:center; margin-top: 0.4em;">돼지고기 두루치기</p>
+            <p class="card-text" style="text-align:center; margin-top: 0.4em; color: black;">돼지고기 두루치기</p>
           </div>
         </a>
         </div>
 
         <!--돼지고기 김치찜 (href 4-1페이지로 넘어감)-->
-        <div class="card" style="width: 18em; margin-left: 2em; ">
+        <div class="card" style="width: 16em; margin-left: 1em; ">
           <a href="4-1.html">
           <img src="http://cfile204.uf.daum.net/image/1809133B50F9493727E2E3" class="card-img-top" alt="..." width="30em" height="220em">
           <div class="card-body">
@@ -98,37 +195,56 @@
           </div>
         </a>
         </div>
+
+        <div class="card" style="width: 16em; margin-left: 1em;"" >
+          <a href="4-1.html">
+          <img src="http://recipe1.ezmember.co.kr/cache/recipe/2018/02/16/3c1c07ef2b22ff3618001b51eda874991.jpg" class="card-img-top" alt="..." width="30em" height="220em">
+          <div class="card-body">
+            <p class="card-text" style="text-align: center; margin-top: 0.4em; color: black;">돼지고기 고추장볶음</p>
+          </div>
+        </a>
+        </div>
+
     </div>
 
         <!--2번쨰 줄 메뉴-->
         <div class="thumbnail row" style="margin-top: 8em;">
 
           <!--돼지고기 고추장볶음-->
-          <div class="card" style="width: 18em; margin-left: 2em; margin-right: 5em;">
+          <div class="card" style="width: 16em; margin-left: 0em; margin-right: 1em;">
             <a href="4-1.html">
             <img src="http://recipe1.ezmember.co.kr/cache/recipe/2018/02/16/3c1c07ef2b22ff3618001b51eda874991.jpg" class="card-img-top" alt="..." width="30em" height="220em">
             <div class="card-body">
-              <p class="card-text" style="text-align: center; margin-top: 0.4em;">돼지고기 고추장볶음</p>
+              <p class="card-text" style="text-align: center; margin-top: 0.4em; color: black;">돼지고기 고추장볶음</p>
             </div>
           </a>
           </div>
           
           <!--통삼겹 오븐구이-->
-          <div class="card" style="width: 18em; margin-left: 2em; margin-right: 5em;">
+          <div class="card" style="width: 16em;"">
             <a href="4-1.html">
             <img src="http://cfile9.uf.tistory.com/image/2065324250A661CD1B49D5" class="card-img-top" alt="..." width="30em" height="220em">
             <div class="card-body">
-              <p class="card-text" style="text-align: center; margin-top: 0.4em;">통삼겹 오븐구이</p>
+              <p class="card-text" style="text-align: center; margin-top: 0.4em; color: black;">통삼겹 오븐구이</p>
             </div>
           </a>
           </div>
   
           <!--돼지갈비찜-->
-          <div class="card" style="width: 18em; margin-left: 2em; ">
+          <div class="card" style="width: 16em; margin-left: 1em; ">
             <a href="4-1.html">
             <img src="https://t1.daumcdn.net/cfile/tistory/2146C14D54840EB905" class="card-img-top" alt="..." width="30em" height="220em">
             <div class="card-body">
-              <p class="card-text" style="text-align: center; margin-top: 0.4em;">돼지갈비찜</p>
+              <p class="card-text" style="text-align: center; margin-top: 0.4em; color: black;">돼지갈비찜</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="card" style="width: 16em; margin-left: 1em; ">
+            <a href="4-1.html">
+            <img src="http://mbymadmin.reddot.kr/data/upload/10153/visual3.jpg" class="card-img-top" alt="..." width="30em" height="220em">
+            <div class="card-body">
+              <p class="card-text" style="text-align: center; margin-top: 0.4em; color: black;">족발</p>
             </div>
           </a>
           </div>

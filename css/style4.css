@@ -13,17 +13,20 @@
     margin-top: 5em;
     padding-left: 3em;
     padding-right: 3em;
-    background-color: rgb(245, 245, 220);
+    padding-top: 2em;
+    background-color: whitesmoke;
     height: 75em;
     margin-bottom: 3em;
    
 }
 .main-item{
     background-color: white;
-    border-radius: 2em;
+    border-radius: 0em;
     padding: 4em;
     font-family: 'MapoDPPA';
     margin-bottom: 2em;
+    border-style: solid;
+    border-color: rgb(255, 143, 75);
 }
 .main-item h2{
     margin-left: 1em;
@@ -58,3 +61,50 @@ a:link { color: red; text-decoration: none;}
     color: gray;
 }
 
+.made{
+    color: gray;
+}
+
+.row-flex{
+    display: flex;
+}
+
+.button-margin{
+
+    margin-left: -1em;
+}
+
+.border-round{
+    border-radius: 3em;
+    color: rgb(255, 143, 75);
+    border-color: rgb(255, 143, 75);
+}
+
+.minus-margin{
+    margin-top: -4em;
+}
+
+.social-part .fa{
+    padding-right:20px;
+  }
+  ul li a{
+    margin-right: 20px;
+  }
+  .h1, h1 {
+    font-size: 2.5rem;
+    
+  }
+  .navbar {
+    position: relative;
+    display: inline;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .5rem 1rem;
+  } 
+  .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    }
