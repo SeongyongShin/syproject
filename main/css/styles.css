@@ -6294,6 +6294,8 @@ button.bg-dark:focus {
 
 .d-block {
   display: block !important;
+  width: 100%;
+  height: 80%;
 }
 
 .d-table {
@@ -10087,7 +10089,7 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
-header.masthead {
+/*header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -10097,7 +10099,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-}
+}*/
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10465,3 +10467,23 @@ ul li a{
 .h1, h1 {
   font-size: 0.5rem;
 }
+<<<<<<< HEAD
+=======
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-align: center;
+}
+.photo1 {
+  font-size: 8rem;
+}
+.photo2 {
+  font-size: 4rem;
+}
+>>>>>>> kyunghwan
