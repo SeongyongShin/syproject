@@ -10092,7 +10092,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/main2.PNG");
+  background-image: url("../assets/img/main3.PNG");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10387,8 +10387,8 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
+  width: 10rem;
+  height: 10rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4 {
@@ -10454,4 +10454,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.social-part .fa{
+  padding-right:20px;
+}
+ul li a{
+  margin-right: 20px;
+}
+.h1, h1 {
+  font-size: 0.5rem;
 }
