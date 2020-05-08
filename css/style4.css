@@ -1,8 +1,9 @@
-@font-face { font-family: 'MapoDPPA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'HangultuelGothic'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_ten@1.10/HangultuelGothic.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 body{
-    font-family: 'MapoDPPA';
-   }
+  font-family: 'HangultuelGothic';
+}
+}
 .navbar button:hover{
     background-color: rgb(247, 153, 137);
     color: white;
