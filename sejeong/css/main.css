@@ -1,3 +1,10 @@
+@font-face { font-family: 'MapoDPPA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body{
+  font-family: 'MapoDPPA';
+ }
+
+ 
 html {
   line-height: 1.15;
   /* 1 */
@@ -1192,4 +1199,13 @@ ul li a{
 }
 menu .col-2{
   padding: 0%;
+}
+.social-part .fa{
+  padding-right:20px;
+}
+ul li a{
+  margin-right: 20px;
+}
+.h1, h1 {
+  font-size: 0.5rem;
 }

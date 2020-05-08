@@ -1,3 +1,8 @@
+@font-face { font-family: 'MapoDPPA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body{
+    font-family: 'MapoDPPA';
+   }
 body {
     padding-top: 2.5cm;
     padding-bottom: 2.5cm;

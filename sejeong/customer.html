@@ -9,12 +9,83 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/customer.css">
+    <link rel="stylesheet" href="customer.css">
+    <style>
+      .navbar {
+        position: relative;
+        display: inline;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: .5rem 1rem;
+      }
+  
+      .navbar-fixed-top {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 1030;
+      }
+      @font-face { font-family: 'BMEULJIRO'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff'); font-weight: normal; font-style: normal; }
+    </style>
 </head>
 <body>
-    <div class="nav">
-        
+      <!-- Navigation-->
+  <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-light bg-light ">
+    <div id="header" class="header">
+      <div class="inner">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="row d-flex justify-content-between">
+          <div class="ml-5">
+            <h1><a href="../main/index.html"><img src="../6/img/logo.png" width="50em" height="50em"></a></h1>
+          </div>
+          
+          <div class="mr-5">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <div class="d-flex justify-content-end ">
+                <div class="menu">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../main/index.html">메인<span class="sr-only">(current)</span></a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link" href="../4.html">레시피</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../6/6.html">농산물 홍보</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="3p.html">커뮤니티</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../signup/1(signup).html">로그인</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown dmenu">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Dropdown link
+                      </a>
+                      <div class="dropdown-menu sm-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                        <a class="dropdown-item" href="#">Link 4</a>
+                        <a class="dropdown-item" href="#">Link 5</a>
+                        <a class="dropdown-item" href="#">Link 6</a>
+                      </div>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </nav>
     <div class="main">
 
         <div class="main-item col-8" >
@@ -25,28 +96,28 @@
                     <li class="list-group-item">댓글</li>
                     <li class="list-group-item">토크</li>
                     <li class="list-group-item">쇼핑후기</li>
-                  </ul>
+                </ul>
 
-                  <ul class="nav nav-tabs" style="margin-top: 3em; border-color: white;">
+                <ul class="nav nav-tabs" style="margin-top: 3em; border-color: white;">
                     <li class="nav-item">
                       <a class="nav-link active" href="#">공개중</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link active" href="#">작성중</a>
                     </li>
-                  </ul>
+                </ul>
 
-                  <nav aria-label="breadcrumb" style="width: 10em; margin-left: 35em; margin-top: -10em;">
+                <nav aria-label="breadcrumb" style="width: 10em; margin-left: 35em; margin-top: -10em;">
                     <ol class="breadcrumb" style="background-color: white; border-radius: 1em;">
                       <li class="breadcrumb-item">최신순</li>
                       <li class="breadcrumb-item active" aria-current="page">조회순</li>
                     </ol>
                   </nav>  
                   
-                  <img src="/img/recipe-input.png" width="700em">
+                  <img src="img/recipe-input.png" width="700em">
                   <center>
-                  <button type="button" class="btn btn-warning" style="margin-left: -6em; background-color: rgb(255, 143, 75); margin-top: 2em; color: white;">레시피 등록하기</button>
-                </center>
+                   <button type="button" class="btn btn-warning" style="margin-left: -6em; background-color: rgb(255, 143, 75); margin-top: 2em; color: white;">레시피 등록하기</button>
+                  </center>
 
                 <center>
                     <nav class="navbar navbar-light bg-white" style="margin-left: 13em; margin-top: 5em;">
@@ -54,7 +125,7 @@
                           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                           <button class="btn btn-outline-warning my-2 my-sm-0 " type="submit">Search</button>
                         </form>
-                      </nav>
+                   </nav>
                 </center>
             </div>
 
@@ -81,6 +152,7 @@
             
 
         </div>
+
 
     </div>
 

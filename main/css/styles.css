@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v6.0.0 (https://startbootstrap.com/template-overviews/agency)
@@ -10498,3 +10500,8 @@ ul li a{
   -1px 1px 0 white,
   1px 1px 0 white;
 }
+@font-face { font-family: 'MapoDPPA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body{
+  font-family: 'MapoDPPA';
+ }
